@@ -11,8 +11,8 @@ namespace AzureCosmoDBSample.Model.Repository
 {
     public class ClienteRepository
     {
-        public string Endpoint = @"https://azure-cosmos-sample.documents.azure.com:443/";
-        public string Key = "UDAKQLQNvidb5iscTVvG22eRe18bIZJzQKY4fT1vMzzrcv1IRCOt2DLmDcpRb27g5SFNkr4EvgXKjzMSEpzIcg==";
+        public string Endpoint = @"https://<namespace>.documents.azure.com:443/";
+        public string Key = "<key>";
         public string DatabaseId = "AzureSampleDB";
         public string CollectionId = "ClienteCollection";
         public DocumentClient DocumentClient;
